@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AzureStorageTableEntityConverter\AzureStorageTableEntityConverter.csproj" />
+    <ProjectReference Include="..\AzureStorageTableRepository\AzureStorageTableRepository.csproj" />
+  </ItemGroup>
+
+</Project>
